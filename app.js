@@ -20,7 +20,8 @@ const products = {
   "premium-pillow": {
     eyebrow: "Pillow · New",
     title: "New 0.3D Premium Comfort Pillow",
-    image: "assets/pillow-premium.webp",
+    image: "assets/pillow-premium-detail.jpg",
+    orientation: "portrait",
     alt: "White six-box quilted premium comfort pillow",
     description: "A tailored pillow pairing a breathable cotton cover with cloud-soft 0.3D fiber filling. Six quilted boxes help keep the fill comfortably distributed, finished with an elegant piped edge.",
     features: ["100% cotton fabric", "0.3D fiber filling", "Soft and breathable", "Six-box quilted design", "Elegant piped edge"],
@@ -117,6 +118,7 @@ function openDetail(item, trigger) {
   lastTrigger = trigger;
   dialogImage.src = item.image;
   dialogImage.alt = item.alt;
+  dialog.classList.toggle("portrait-media", item.orientation === "portrait");
   dialogEyebrow.textContent = item.eyebrow;
   dialogTitle.textContent = item.title;
   dialogDescription.textContent = item.description;
