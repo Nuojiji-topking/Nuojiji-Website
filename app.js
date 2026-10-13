@@ -11,7 +11,8 @@ const products = {
   pudding: {
     eyebrow: "Pillow",
     title: "Pudding Pillow",
-    image: "assets/pillow-pudding.webp",
+    image: "assets/pillow-pudding-detail.jpg",
+    orientation: "portrait",
     alt: "Machine-washable Pudding Pillow with blue side panel",
     description: "An easy-care pillow with a clean white face and a distinctive blue side panel. Designed for everyday comfort and the convenience of machine washing.",
     features: ["Machine washable", "Blue side panel", "Soft everyday comfort", "Easy-care construction"],
