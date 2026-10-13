@@ -30,7 +30,8 @@ const products = {
   "double-piped": {
     eyebrow: "Pillow · Bestseller",
     title: "Double-Piped 0.3D Snowdown Fiber Pillow",
-    image: "assets/pillow-double-piped.webp",
+    image: "assets/pillow-double-piped-detail.jpg",
+    orientation: "portrait",
     alt: "White Snowdown pillow with double blue piping",
     description: "Down-like softness with an airy, fluffy feel. Ultra-fine Snowdown fill delivers breathable comfort in an easy-care polyester cover with a crisp double-piped edge.",
     features: ["Down-like softness", "Fluffy and breathable", "Dust-free", "Easy care", "300T polyester cover"],
