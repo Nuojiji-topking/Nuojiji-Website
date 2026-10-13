@@ -40,7 +40,8 @@ const products = {
   "cotton-pillow": {
     eyebrow: "Pillow",
     title: "Cotton 0.3D Snowdown Fiber Pillow",
-    image: "assets/pillow-cotton.webp",
+    image: "assets/pillow-cotton-detail.jpg",
+    orientation: "portrait",
     alt: "White cotton Snowdown pillow with single piping",
     description: "A naturally breathable cotton shell wraps ultra-fine 0.3D Snowdown filling for gentle, down-like softness without the dust. A single piped edge keeps the look clean and refined.",
     features: ["100% cotton shell", "0.3D Snowdown fill", "Down-like softness", "Allergy-friendly", "Breathable and dust-free"],
