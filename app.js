@@ -2,7 +2,8 @@ const products = {
   vacuum: {
     eyebrow: "Pillow · Featured",
     title: "Vacuum-Compressed Pudding Pillow",
-    image: "assets/pillow-vacuum.webp",
+    image: "assets/pillow-vacuum-detail.jpg",
+    orientation: "portrait",
     alt: "Vacuum-Compressed Pudding Pillow with warm cream cover",
     description: "A softly supportive pillow with a latex-like hand feel and excellent recovery after compression. Vacuum packaging reduces transport volume, while the pillow quickly returns to its original shape after opening.",
     features: ["Latex-like feel", "Excellent recovery after compression", "Supportive, soft comfort", "Transport-friendly vacuum packaging"],
